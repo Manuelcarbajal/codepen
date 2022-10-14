@@ -1,0 +1,70 @@
+.medium{
+   display:grid;
+   grid-template-columns: 55% 45%;
+}
+/* columna izquierda */
+.column-left{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding-left: 80px;
+}
+.text-1{
+    font-size:3em;
+    color: white;
+}
+
+.btones{
+    display: flex;
+    align-items:center;
+}
+.btn button{
+    font-size:0.5em;
+    margin:10px;
+    padding:20px;
+    border-radius:5px;
+    border:none;
+    background-color:aqua;
+    
+}
+.btn-2 button{
+    color:white;
+    background-color:black;
+    font-size:0.5em;
+    margin:10px;
+    padding:20px;
+    border-radius:5px;
+    border:none;
+}
+
+/* columna Derecha */
+
+.column-right{
+    display:flex;
+    flex-direction: column;
+   
+
+}
+
+.title{
+    margin-top:50px;
+    font-size: 1.8em;
+}
+.title b{
+    color:aqua;
+}
+
+.imagen{
+   display:flex;
+    align-items:flex-end;
+    margin-top:none;
+}
+
+.imagen img {
+    width:100%;
+    border-radius:10px;
+    box-shadow: 1px 10px 84px 18px rgba(0,0,0,0.75);
+}   
+
+    
